@@ -1,0 +1,17 @@
+body {
+    font-family: sans-serif;
+    font-size: xx-large;
+    background: linear-gradient(90deg, rgb(12, 12, 239) 0%, rgba(0, 67, 255, 1) 54%, rgba(138, 167, 255, 1) 100%);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 10.5%;
+}
+
+@media only screen and (max-width: 620px) {
+    body {
+        margin-top: 55%;
+        font-size: x-large;
+        font-weight: 700;
+    }
+}
+
